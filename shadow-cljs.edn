@@ -1,0 +1,11 @@
+{:source-paths ["src"]
+
+ :dependencies [[cider/cider-nrepl "0.36.1"]]
+
+ :dev-http {8080 "public"}
+
+ :builds {:frontend
+          {:target :browser
+           :modules {:main {:init-fn core/main}}
+           :compiler-options {:infer-externs false
+                              :optimizations :simple}}}}

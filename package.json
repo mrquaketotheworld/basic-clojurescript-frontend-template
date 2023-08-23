@@ -1,0 +1,12 @@
+{
+  "name": "Basic ClojureScript Frontend Template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx shadow-cljs watch frontend",
+    "release": "npx shadow-cljs release frontend"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.25.3"
+  }
+}
